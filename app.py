@@ -20,7 +20,7 @@ def run_experiment():
     visualize(activation, lr, step_num)
 
     # Check if result gif is generated and return their paths
-    result_gif = "results/visualize.gif"
+    result_gif = "results/visualizeDemo.gif"
     
     return jsonify({
         "result_gif": result_gif if os.path.exists(result_gif) else None,
